@@ -1,0 +1,56 @@
+body {
+    background: #ffccff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    color: #6a0dad;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.birthday-wish {
+    font-size: 50px;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+    color: #ff69b4;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    color: #ff6347;
+    margin: 20px 0;
+}
+
+.countdown h2 {
+    font-size: 30px;
+    color: #ff69b4;
+}
+
+#timer {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff6347;
+}
+
+.heartfelt-wishes {
+    font-size: 28px;
+    color: #ff1493;
+    margin-top: 30px;
+}
+
+.flowers {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.cake {
+    font-size: 150px; /* Even bigger cake emoji */
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
